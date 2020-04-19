@@ -6,7 +6,6 @@ def easyLevel():
     target_num = random.randint(1, 10)
     while True:
         user_guess = int(input("Guess a number from 1 to 10: "))
-        print(target_num)
         if user_guess == target_num:
             print("You got it right")
             break
@@ -22,9 +21,7 @@ def mediumLevel():
     print("Level Medium Activated")
     target_num = random.randint(1, 20)
     while True:
-        user_guess = int(input("Guess a number from 1 to 10: "))
-        print(target_num)
-        if user_guess == target_num:
+        user_guess = int(input("Guess a number from 1 to 10: "))        if user_guess == target_num:
             print("You got it right")
             break
         else:
@@ -39,9 +36,7 @@ def hardLevel():
     print("Level Hard Activated")
     target_num = random.randint(1, 50)
     while True:
-        user_guess = int(input("Guess a number from 1 to 10: "))
-        print(target_num)
-        if user_guess == target_num:
+        user_guess = int(input("Guess a number from 1 to 10: "))        if user_guess == target_num:
             print("You got it right")
             break
         else:
@@ -58,7 +53,6 @@ print('''
 Enter 1 to selcet Easy
 Enter 2 to selcet Medium
 Enter 3 to selcet Hedium
-Enter 4 to Quit
     ''')
 choice = int(input("Enter a choice: "))
 if choice == 1:
